@@ -1,0 +1,91 @@
+<html lang="nl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Polispakker - Automatische Polis Verzekeringen
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-blue-600">
+     Polispakker
+    </div>
+    <nav class="relative">
+        <ul class="flex space-x-4">
+          <li>
+            <a class="text-gray-700 hover:text-blue-600" href="index.html">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="text-gray-700 hover:text-blue-600" href="over_ons.html">
+              Over Ons
+            </a>
+          </li>
+          <!-- Dropdown menu -->
+          <li class="relative group">
+            <a class="text-gray-700 hover:text-blue-600 cursor-pointer" href="diensten.html">
+              Diensten
+            </a>
+            <ul class="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-10">
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="autoverzekering.html">
+                  <i class="fa-solid fa-car"></i>
+                  Autoverzekering
+                </a>
+              </li>
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="woonhuisverzekering.html">
+                  <i class="fa-solid fa-house"></i>
+                  Woonhuisverzekering
+                </a>
+              </li>
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="zorgverzekering.html">
+                  <i class="fa-solid fa-hospital"></i>
+                  Zorgverzekering
+                </a>
+              </li>
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="reisverzekering.html">
+                  <i class="fa-solid fa-plane"></i>
+                  Reisverzekering
+                </a>
+              </li>
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="levensverzekering.html">
+                  <i class="fa-solid fa-heart"></i>
+                  Levensverzekering
+                </a>
+              </li>
+              <li>
+                <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="huisdierverzekering.html">
+                  <i class="fa-solid fa-dog"></i>
+                  Huisdierenverzekering
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a class="text-gray-700 hover:text-blue-600" href="#">
+              Contact
+            </a>
+            <div class="hidden hover:block bg-red-500 text-white p-4">Test</div>
+          </li>
+        </ul>
+      </nav>
+   </div>
+  </header>
